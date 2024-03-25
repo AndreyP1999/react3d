@@ -1,0 +1,56 @@
+.TopMenu {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 0.01rem solid rgba(0, 0, 0, 0.416);
+}
+
+.TopMenu .icons {
+
+
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    cursor: pointer;
+    padding: 0.2rem 0.2rem;
+    border-left: 0.01rem solid rgba(0, 0, 0, 0.425);
+    position: relative;
+    border-right: 0.01rem solid rgba(0, 0, 0, 0.425);
+    width: 2rem;
+    height: 1.3rem;
+}
+
+.dropMenu {
+    position: absolute;
+    height: 0;
+   
+    overflow: hidden;
+    z-index: 200000;
+
+}
+
+.item:hover .dropMenu {
+
+    height: fit-content;
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    padding-top: 0.4rem;
+}
+
+.item:hover .dropMenu .li {
+    padding: 0.4rem;
+    cursor: pointer;
+}
+
+.item:hover .dropMenu .li:hover {
+    color: rgb(197, 40, 229);
+}
+
+.TopMenu .icons .arrow {
+    width: 0.6rem;
+}

@@ -1,0 +1,7 @@
+{
+    "tranform": {
+        "KeyT": "translate",
+        "KeyR": "rotate",
+        "KeyS": "scale"
+    }
+}
